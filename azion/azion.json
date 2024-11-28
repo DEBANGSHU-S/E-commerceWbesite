@@ -1,0 +1,42 @@
+{
+  "name": "E-commerceWbesite",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241128095109",
+  "not-first-run": true,
+  "function": {
+    "id": 32915,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 31659,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 190594
+  },
+  "application": {
+    "id": 1732780580,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1732786412,
+    "name": "E-commerceWbesite",
+    "domain_name": "xyvak59ohk.map.azionedge.net",
+    "url": "https://xyvak59ohk.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 327489,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
